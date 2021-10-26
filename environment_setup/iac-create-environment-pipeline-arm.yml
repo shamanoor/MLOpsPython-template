@@ -16,7 +16,7 @@ pr:
 
 pool:
   vmImage: "ubuntu-latest"
-  name: shama-VivoBook-ASUSLaptop-X580GD-N580GD
+  name: Default
   demands: Limit -equals DisAbleParallel 
 
 variables:
