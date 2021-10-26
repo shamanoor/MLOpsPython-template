@@ -15,7 +15,6 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
-  vmImage: "ubuntu-latest"
   name: Default
   demands: Limit -equals DisAbleParallel 
 
