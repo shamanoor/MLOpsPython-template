@@ -15,7 +15,7 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
-  name: Default
+  name: MLOps
   demands: Limit -equals DisAbleParallel 
 
 variables:
