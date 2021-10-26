@@ -16,6 +16,8 @@ pr:
 
 pool:
   vmImage: "ubuntu-latest"
+  name: shama-VivoBook-ASUSLaptop-X580GD-N580GD
+  demands: Limit -equals DisAbleParallel 
 
 variables:
   - group: devopsforai-aml-vg
